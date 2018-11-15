@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PRODUCTS_MANAGEMENT.BL.Categories" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAIIgAAACAAAAAAAAAgABAAAEACAAAAAgAIg=</HashCode>
+      <FileName>BL\Categories.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.BL.Login">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAAAAAAAAAAAAAAAAAUAAAAADAAAAAAAAAAEAAA=</HashCode>
+      <FileName>BL\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.BL.MainTable" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAIAQAAAAAAAAAAAgAAEAAAAAACAAAAAgAAA=</HashCode>
+      <FileName>BL\MainTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.DAL.DataAccessLayer" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACACAAAAAAAAAAAAAJAAAAEAAAA=</HashCode>
+      <FileName>DAL\DataAccessLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.DAL.DB" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAIAAAJASAAAAAAAEQBYCAAAAAAgAAAIAAAAUAoAA=</HashCode>
+      <FileName>DAL\DB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.PL.frmAddCategory" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACgYBBFKRgBFgQACCEABACADAABhIgACBCAQISgQY=</HashCode>
+      <FileName>PL\frmAddCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.PL.frmAddProduct" Collapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CoBCoQABQiAQSDQUAACGAECCAQCIkRIAAOIKIUIRgA4=</HashCode>
+      <FileName>PL\frmAddProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.PL.frmLogin" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgEABEAAAiAAEACIAAACAAAACAAAABAAAA=</HashCode>
+      <FileName>PL\frmLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.PL.frmMain" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQgACAkAAiQAYECAAQCACECCQUIAAABAAACCAAAACEg=</HashCode>
+      <FileName>PL\frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.Program" Collapsed="true">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.Properties.Resources" Collapsed="true">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAABEAAIAQAAAAAAAAABAAAAAMA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.Properties.Settings" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.BL.Customer" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <AssociationLine Name="Order" Type="PRODUCTS_MANAGEMENT.BL.Order" ManuallyRouted="true">
+      <Path>
+        <Point X="4.75" Y="2.191" />
+        <Point X="4.75" Y="2.405" />
+        <Point X="5.577" Y="2.405" Type="JumpStart" />
+        <Point X="5.743" Y="2.405" Type="JumpEnd" />
+        <Point X="5.838" Y="2.405" />
+        <Point X="5.838" Y="2.134" />
+        <Point X="6.25" Y="2.134" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.193" Y="-0.273" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIEAACISIKCBBAQAAAAAAAACAAAAAQAQAkAAABIAAAA=</HashCode>
+      <FileName>BL\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Order" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.BL.Product" Collapsed="true">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAhAAAAIAAAAAiEgAAAAgAAQMAAEACABAAABBAAAI=</HashCode>
+      <FileName>BL\Product.cs</FileName>
+      <NewMemberFileName>BL\cls_Product.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.BL.Order" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIACAAQIAAkAgYABAAgAgIAAAAQAAAAAAQAACICAAA=</HashCode>
+      <FileName>BL\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Order_Details" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PRODUCTS_MANAGEMENT.BL.Order_Details" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <AssociationLine Name="Product" Type="PRODUCTS_MANAGEMENT.BL.Product" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="3.769" />
+        <Point X="3.25" Y="3.769" />
+        <Point X="3.25" Y="4.691" />
+        <Point X="3" Y="4.691" />
+        <Point X="3" Y="4.441" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACBAAAIIAAAAACEgEAAgIAggAAAAAAAgAAAABAAAA=</HashCode>
+      <FileName>BL\Order_Details.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="PRODUCTS_MANAGEMENT.Request_Status" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAQAAAAAAAAACAAAAAAAQAAAAAA=</HashCode>
+      <FileName>BL\Request_Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

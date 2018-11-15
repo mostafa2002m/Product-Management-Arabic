@@ -1,0 +1,1489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="tsmAbout.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tsmAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 36</value>
+  </data>
+  <data name="tsmAbout.Text" xml:space="preserve">
+    <value>عن البرنامج</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="tsmLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 36</value>
+  </data>
+  <data name="tsmLogin.Text" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="toolStripSeparator18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 6</value>
+  </data>
+  <data name="tsmInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 36</value>
+  </data>
+  <data name="tsmInfo.Text" xml:space="preserve">
+    <value>معلومات المنشأة</value>
+  </data>
+  <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 6</value>
+  </data>
+  <data name="tsmBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 36</value>
+  </data>
+  <data name="tsmBackup.Text" xml:space="preserve">
+    <value>إنشاء نسخة احتياطية</value>
+  </data>
+  <data name="tsmRestore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 36</value>
+  </data>
+  <data name="tsmRestore.Text" xml:space="preserve">
+    <value>استعادة نسحة احتياطية</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 6</value>
+  </data>
+  <data name="tsmClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 36</value>
+  </data>
+  <data name="tsmClose.Text" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="tsmFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 36</value>
+  </data>
+  <data name="tsmFile.Text" xml:space="preserve">
+    <value>ملف</value>
+  </data>
+  <data name="stStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 36</value>
+  </data>
+  <data name="stStock.Text" xml:space="preserve">
+    <value>إضافة مخزن</value>
+  </data>
+  <data name="tsmCatManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 36</value>
+  </data>
+  <data name="tsmCatManagement.Text" xml:space="preserve">
+    <value>إدارة  فئات المنتجات</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 6</value>
+  </data>
+  <data name="tsmProductManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 36</value>
+  </data>
+  <data name="tsmProductManagement.Text" xml:space="preserve">
+    <value>ادارة الأصناف</value>
+  </data>
+  <data name="toolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 6</value>
+  </data>
+  <data name="tsmProduct.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 36</value>
+  </data>
+  <data name="tsmProduct.Text" xml:space="preserve">
+    <value>المنتجات</value>
+  </data>
+  <data name="tsmCustManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 36</value>
+  </data>
+  <data name="tsmCustManagement.Text" xml:space="preserve">
+    <value>ادارة العملاء</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="tsmNewOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 36</value>
+  </data>
+  <data name="tsmNewOrder.Text" xml:space="preserve">
+    <value>اضافة فاتوره مبيعات جديده</value>
+  </data>
+  <data name="tsmNewROrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 36</value>
+  </data>
+  <data name="tsmNewROrder.Text" xml:space="preserve">
+    <value>اضافة فاتورة مردودات مبيعات</value>
+  </data>
+  <data name="tsmOrderManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 36</value>
+  </data>
+  <data name="tsmOrderManagement.Text" xml:space="preserve">
+    <value>ادارة المبيعات</value>
+  </data>
+  <data name="tsmPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 36</value>
+  </data>
+  <data name="tsmPos.Text" xml:space="preserve">
+    <value>نقطة بيع </value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="tsmCustPayManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 36</value>
+  </data>
+  <data name="tsmCustPayManagement.Text" xml:space="preserve">
+    <value>ادارة مدفوعات العملاء</value>
+  </data>
+  <data name="tsmCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 36</value>
+  </data>
+  <data name="tsmCustomer.Text" xml:space="preserve">
+    <value>العملاء</value>
+  </data>
+  <data name="tsmSupManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 36</value>
+  </data>
+  <data name="tsmSupManagement.Text" xml:space="preserve">
+    <value>إدارة الموردين</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 6</value>
+  </data>
+  <data name="tsmNewInvoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 36</value>
+  </data>
+  <data name="tsmNewInvoice.Text" xml:space="preserve">
+    <value>اضافة فاتورة شراء جديده</value>
+  </data>
+  <data name="tsmNewRInvoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 36</value>
+  </data>
+  <data name="tsmNewRInvoice.Text" xml:space="preserve">
+    <value>اضافة فاتورة مردودات مشتريات</value>
+  </data>
+  <data name="tsmInvoiceManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 36</value>
+  </data>
+  <data name="tsmInvoiceManagement.Text" xml:space="preserve">
+    <value>إدارة المشتريات</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 6</value>
+  </data>
+  <data name="tsmsupPayManage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 36</value>
+  </data>
+  <data name="tsmsupPayManage.Text" xml:space="preserve">
+    <value>إدارة المدفوعات</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 6</value>
+  </data>
+  <data name="tsmFirstPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 36</value>
+  </data>
+  <data name="tsmFirstPeriod.Text" xml:space="preserve">
+    <value>بضاعة أول المدة</value>
+  </data>
+  <data name="tsmSupplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 36</value>
+  </data>
+  <data name="tsmSupplier.Text" xml:space="preserve">
+    <value>الموردون</value>
+  </data>
+  <data name="tsmAddMadeProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 36</value>
+  </data>
+  <data name="tsmAddMadeProduct.Text" xml:space="preserve">
+    <value>ادارة منتجات الورشة</value>
+  </data>
+  <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="tsmMadeOrderManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 36</value>
+  </data>
+  <data name="tsmMadeOrderManagement.Text" xml:space="preserve">
+    <value>إدارة مبيعات الورشة</value>
+  </data>
+  <data name="tsmNewCarpentOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 36</value>
+  </data>
+  <data name="tsmNewCarpentOrder.Text" xml:space="preserve">
+    <value>اصدار فاتورة بيع</value>
+  </data>
+  <data name="tsmCarpenterService.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmCarpenterService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 36</value>
+  </data>
+  <data name="tsmCarpenterService.Text" xml:space="preserve">
+    <value>مبيعات الورشة</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tsmCarpenterService.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="stmPunchManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 36</value>
+  </data>
+  <data name="stmPunchManagement.Text" xml:space="preserve">
+    <value>إدارة الاقساط</value>
+  </data>
+  <data name="tsmPunches.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmPunches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 36</value>
+  </data>
+  <data name="tsmPunches.Text" xml:space="preserve">
+    <value>الأقساط</value>
+  </data>
+  <data name="tsmPunches.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 36</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>إدارة الخدمات</value>
+  </data>
+  <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 6</value>
+  </data>
+  <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 6</value>
+  </data>
+  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 6</value>
+  </data>
+  <data name="tsmElectManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 36</value>
+  </data>
+  <data name="tsmElectManagement.Text" xml:space="preserve">
+    <value>فاتورة خدمات</value>
+  </data>
+  <data name="tsmElectronicService.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmElectronicService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="tsmElectronicService.Text" xml:space="preserve">
+    <value>خدمات الكترونية</value>
+  </data>
+  <data name="tsmElectronicService.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmUserManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 36</value>
+  </data>
+  <data name="tsmUserManagement.Text" xml:space="preserve">
+    <value>ادارة المستخدمون</value>
+  </data>
+  <data name="tsmUser.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 36</value>
+  </data>
+  <data name="tsmUser.Text" xml:space="preserve">
+    <value>المستخدمون</value>
+  </data>
+  <data name="إدارةالمصروفاتToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 36</value>
+  </data>
+  <data name="إدارةالمصروفاتToolStripMenuItem.Text" xml:space="preserve">
+    <value>إدارة المصروفات</value>
+  </data>
+  <data name="سدادالمصروفاتToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 36</value>
+  </data>
+  <data name="سدادالمصروفاتToolStripMenuItem.Text" xml:space="preserve">
+    <value>سداد المصروفات</value>
+  </data>
+  <data name="tsmCost.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 36</value>
+  </data>
+  <data name="tsmCost.Text" xml:space="preserve">
+    <value>المصروفات</value>
+  </data>
+  <data name="tsmReturnOnSales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 36</value>
+  </data>
+  <data name="tsmReturnOnSales.Text" xml:space="preserve">
+    <value>العائد على النشاط</value>
+  </data>
+  <data name="تقاريرالمشترياتToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 36</value>
+  </data>
+  <data name="تقاريرالمشترياتToolStripMenuItem.Text" xml:space="preserve">
+    <value>تقارير المشتريات</value>
+  </data>
+  <data name="تقاريرالمبيعاتToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 36</value>
+  </data>
+  <data name="تقاريرالمبيعاتToolStripMenuItem.Text" xml:space="preserve">
+    <value>تقارير المبيعات</value>
+  </data>
+  <data name="مردوداتالمشترياتToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 36</value>
+  </data>
+  <data name="مردوداتالمشترياتToolStripMenuItem.Text" xml:space="preserve">
+    <value>مردودات المشتريات</value>
+  </data>
+  <data name="مردوداتالمبيعاتToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 36</value>
+  </data>
+  <data name="مردوداتالمبيعاتToolStripMenuItem.Text" xml:space="preserve">
+    <value>مردودات المبيعات</value>
+  </data>
+  <data name="المدفوعاتToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 36</value>
+  </data>
+  <data name="المدفوعاتToolStripMenuItem.Text" xml:space="preserve">
+    <value>المدفوعات/حركة الموردين</value>
+  </data>
+  <data name="المقبوضاتToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 36</value>
+  </data>
+  <data name="المقبوضاتToolStripMenuItem.Text" xml:space="preserve">
+    <value>المقبوضات/حركة العملاء</value>
+  </data>
+  <data name="tsmReport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 36</value>
+  </data>
+  <data name="tsmReport.Text" xml:space="preserve">
+    <value>التقارير</value>
+  </data>
+  <data name="tsmWhatsApp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 36</value>
+  </data>
+  <data name="tsmWhatsApp.Text" xml:space="preserve">
+    <value>WatsApp Massenger</value>
+  </data>
+  <data name="tsmBarcodeMaker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 36</value>
+  </data>
+  <data name="tsmBarcodeMaker.Text" xml:space="preserve">
+    <value>طباعة ملصق باركود</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 36</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>إنشاء Barcode/QrCode</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 36</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>ارسال بريد ألكتروني</value>
+  </data>
+  <data name="ارسالبريدألكترونيToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 36</value>
+  </data>
+  <data name="ارسالبريدألكترونيToolStripMenuItem.Text" xml:space="preserve">
+    <value>ارسال بريد ألكتروني</value>
+  </data>
+  <data name="ارسالSMSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 36</value>
+  </data>
+  <data name="ارسالSMSToolStripMenuItem.Text" xml:space="preserve">
+    <value>ارسال SMS</value>
+  </data>
+  <data name="tsmTool.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 36</value>
+  </data>
+  <data name="tsmTool.Text" xml:space="preserve">
+    <value>أدوات</value>
+  </data>
+  <data name="tsmExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tsmExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 36</value>
+  </data>
+  <data name="tsmExit.Text" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="arabicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="arabicToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 36</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1286, 40</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="tsp1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 3</value>
+  </metadata>
+  <data name="tspAgent.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tspAgent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="tspAgent.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="tspAgent.ToolTipText" xml:space="preserve">
+    <value>العملاء</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="tspSupplier.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tspSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="tspSupplier.Text" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="tspSupplier.ToolTipText" xml:space="preserve">
+    <value>الموردين</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripButton7.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="toolStripButton7.Text" xml:space="preserve">
+    <value>سند دفع</value>
+  </data>
+  <data name="toolStripButton7.ToolTipText" xml:space="preserve">
+    <value>إدارة المدفوعات</value>
+  </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripButton8.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="toolStripButton8.Text" xml:space="preserve">
+    <value>سند قبض</value>
+  </data>
+  <data name="toolStripSeparator20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripButton10.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="toolStripButton10.Text" xml:space="preserve">
+    <value>toolStripButton10</value>
+  </data>
+  <data name="toolStripButton10.ToolTipText" xml:space="preserve">
+    <value>نسخ احتياطي لقاعدة البيانات</value>
+  </data>
+  <data name="toolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripButton11.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="toolStripButton11.Text" xml:space="preserve">
+    <value>toolStripButton11</value>
+  </data>
+  <data name="toolStripButton11.ToolTipText" xml:space="preserve">
+    <value>استعادة قاعدة بيانات مخزنة</value>
+  </data>
+  <data name="toolStripSeparator26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripButton3.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="toolStripButton3.Text" xml:space="preserve">
+    <value>toolStripButton3</value>
+  </data>
+  <data name="toolStripButton3.ToolTipText" xml:space="preserve">
+    <value>فاتورة مبيعات</value>
+  </data>
+  <data name="toolStripSeparator27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripButton4.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>toolStripButton4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStripButton4.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="toolStripButton4.ToolTipText" xml:space="preserve">
+    <value>فاتورة مشتريات</value>
+  </data>
+  <data name="toolStripSeparator28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripSeparator30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
+    <value>نقظة بيع</value>
+  </data>
+  <data name="toolStripButton12.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="toolStripButton12.Text" xml:space="preserve">
+    <value>toolStripButton12</value>
+  </data>
+  <data name="toolStripButton12.ToolTipText" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="tsp1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="tsp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1286, 87</value>
+  </data>
+  <data name="tsp1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tsp1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;tsp1.Name" xml:space="preserve">
+    <value>tsp1</value>
+  </data>
+  <data name="&gt;&gt;tsp1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsp1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tsp1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>237, 17</value>
+  </metadata>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 487</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 38</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Dev: Ibrahim Mostafa
+Mob.No: 0508218155</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 60pt, style=Bold, Italic</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 376</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>998, 97</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Product Management</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1286, 631</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>برنامج إدارة المبيعات</value>
+  </data>
+  <data name="&gt;&gt;tsmAbout.Name" xml:space="preserve">
+    <value>tsmAbout</value>
+  </data>
+  <data name="&gt;&gt;tsmAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmFile.Name" xml:space="preserve">
+    <value>tsmFile</value>
+  </data>
+  <data name="&gt;&gt;tsmFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmLogin.Name" xml:space="preserve">
+    <value>tsmLogin</value>
+  </data>
+  <data name="&gt;&gt;tsmLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator18.Name" xml:space="preserve">
+    <value>toolStripSeparator18</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmInfo.Name" xml:space="preserve">
+    <value>tsmInfo</value>
+  </data>
+  <data name="&gt;&gt;tsmInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator19.Name" xml:space="preserve">
+    <value>toolStripSeparator19</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmBackup.Name" xml:space="preserve">
+    <value>tsmBackup</value>
+  </data>
+  <data name="&gt;&gt;tsmBackup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmRestore.Name" xml:space="preserve">
+    <value>tsmRestore</value>
+  </data>
+  <data name="&gt;&gt;tsmRestore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmClose.Name" xml:space="preserve">
+    <value>tsmClose</value>
+  </data>
+  <data name="&gt;&gt;tsmClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmProduct.Name" xml:space="preserve">
+    <value>tsmProduct</value>
+  </data>
+  <data name="&gt;&gt;tsmProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stStock.Name" xml:space="preserve">
+    <value>stStock</value>
+  </data>
+  <data name="&gt;&gt;stStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCatManagement.Name" xml:space="preserve">
+    <value>tsmCatManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmCatManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmProductManagement.Name" xml:space="preserve">
+    <value>tsmProductManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmProductManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator14.Name" xml:space="preserve">
+    <value>toolStripSeparator14</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCustomer.Name" xml:space="preserve">
+    <value>tsmCustomer</value>
+  </data>
+  <data name="&gt;&gt;tsmCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCustManagement.Name" xml:space="preserve">
+    <value>tsmCustManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmCustManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmNewOrder.Name" xml:space="preserve">
+    <value>tsmNewOrder</value>
+  </data>
+  <data name="&gt;&gt;tsmNewOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmNewROrder.Name" xml:space="preserve">
+    <value>tsmNewROrder</value>
+  </data>
+  <data name="&gt;&gt;tsmNewROrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmOrderManagement.Name" xml:space="preserve">
+    <value>tsmOrderManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmOrderManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmPos.Name" xml:space="preserve">
+    <value>tsmPos</value>
+  </data>
+  <data name="&gt;&gt;tsmPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCustPayManagement.Name" xml:space="preserve">
+    <value>tsmCustPayManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmCustPayManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmSupplier.Name" xml:space="preserve">
+    <value>tsmSupplier</value>
+  </data>
+  <data name="&gt;&gt;tsmSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmSupManagement.Name" xml:space="preserve">
+    <value>tsmSupManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmSupManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmNewInvoice.Name" xml:space="preserve">
+    <value>tsmNewInvoice</value>
+  </data>
+  <data name="&gt;&gt;tsmNewInvoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmNewRInvoice.Name" xml:space="preserve">
+    <value>tsmNewRInvoice</value>
+  </data>
+  <data name="&gt;&gt;tsmNewRInvoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmInvoiceManagement.Name" xml:space="preserve">
+    <value>tsmInvoiceManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmInvoiceManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmsupPayManage.Name" xml:space="preserve">
+    <value>tsmsupPayManage</value>
+  </data>
+  <data name="&gt;&gt;tsmsupPayManage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
+    <value>toolStripSeparator12</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmFirstPeriod.Name" xml:space="preserve">
+    <value>tsmFirstPeriod</value>
+  </data>
+  <data name="&gt;&gt;tsmFirstPeriod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCarpenterService.Name" xml:space="preserve">
+    <value>tsmCarpenterService</value>
+  </data>
+  <data name="&gt;&gt;tsmCarpenterService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmAddMadeProduct.Name" xml:space="preserve">
+    <value>tsmAddMadeProduct</value>
+  </data>
+  <data name="&gt;&gt;tsmAddMadeProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Name" xml:space="preserve">
+    <value>toolStripSeparator15</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmMadeOrderManagement.Name" xml:space="preserve">
+    <value>tsmMadeOrderManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmMadeOrderManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmNewCarpentOrder.Name" xml:space="preserve">
+    <value>tsmNewCarpentOrder</value>
+  </data>
+  <data name="&gt;&gt;tsmNewCarpentOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmPunches.Name" xml:space="preserve">
+    <value>tsmPunches</value>
+  </data>
+  <data name="&gt;&gt;tsmPunches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stmPunchManagement.Name" xml:space="preserve">
+    <value>stmPunchManagement</value>
+  </data>
+  <data name="&gt;&gt;stmPunchManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmElectronicService.Name" xml:space="preserve">
+    <value>tsmElectronicService</value>
+  </data>
+  <data name="&gt;&gt;tsmElectronicService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Name" xml:space="preserve">
+    <value>toolStripSeparator16</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Name" xml:space="preserve">
+    <value>toolStripSeparator17</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Name" xml:space="preserve">
+    <value>toolStripSeparator13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmElectManagement.Name" xml:space="preserve">
+    <value>tsmElectManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmElectManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmUser.Name" xml:space="preserve">
+    <value>tsmUser</value>
+  </data>
+  <data name="&gt;&gt;tsmUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmUserManagement.Name" xml:space="preserve">
+    <value>tsmUserManagement</value>
+  </data>
+  <data name="&gt;&gt;tsmUserManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCost.Name" xml:space="preserve">
+    <value>tsmCost</value>
+  </data>
+  <data name="&gt;&gt;tsmCost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;إدارةالمصروفاتToolStripMenuItem.Name" xml:space="preserve">
+    <value>إدارةالمصروفاتToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;إدارةالمصروفاتToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;سدادالمصروفاتToolStripMenuItem.Name" xml:space="preserve">
+    <value>سدادالمصروفاتToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;سدادالمصروفاتToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmReport.Name" xml:space="preserve">
+    <value>tsmReport</value>
+  </data>
+  <data name="&gt;&gt;tsmReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmReturnOnSales.Name" xml:space="preserve">
+    <value>tsmReturnOnSales</value>
+  </data>
+  <data name="&gt;&gt;tsmReturnOnSales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;تقاريرالمشترياتToolStripMenuItem.Name" xml:space="preserve">
+    <value>تقاريرالمشترياتToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;تقاريرالمشترياتToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;تقاريرالمبيعاتToolStripMenuItem.Name" xml:space="preserve">
+    <value>تقاريرالمبيعاتToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;تقاريرالمبيعاتToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;مردوداتالمشترياتToolStripMenuItem.Name" xml:space="preserve">
+    <value>مردوداتالمشترياتToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;مردوداتالمشترياتToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;مردوداتالمبيعاتToolStripMenuItem.Name" xml:space="preserve">
+    <value>مردوداتالمبيعاتToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;مردوداتالمبيعاتToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;المدفوعاتToolStripMenuItem.Name" xml:space="preserve">
+    <value>المدفوعاتToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;المدفوعاتToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;المقبوضاتToolStripMenuItem.Name" xml:space="preserve">
+    <value>المقبوضاتToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;المقبوضاتToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmTool.Name" xml:space="preserve">
+    <value>tsmTool</value>
+  </data>
+  <data name="&gt;&gt;tsmTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmWhatsApp.Name" xml:space="preserve">
+    <value>tsmWhatsApp</value>
+  </data>
+  <data name="&gt;&gt;tsmWhatsApp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmBarcodeMaker.Name" xml:space="preserve">
+    <value>tsmBarcodeMaker</value>
+  </data>
+  <data name="&gt;&gt;tsmBarcodeMaker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ارسالبريدألكترونيToolStripMenuItem.Name" xml:space="preserve">
+    <value>ارسالبريدألكترونيToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ارسالبريدألكترونيToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ارسالSMSToolStripMenuItem.Name" xml:space="preserve">
+    <value>ارسالSMSToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ارسالSMSToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmExit.Name" xml:space="preserve">
+    <value>tsmExit</value>
+  </data>
+  <data name="&gt;&gt;tsmExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;arabicToolStripMenuItem.Name" xml:space="preserve">
+    <value>arabicToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;arabicToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tspAgent.Name" xml:space="preserve">
+    <value>tspAgent</value>
+  </data>
+  <data name="&gt;&gt;tspAgent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tspSupplier.Name" xml:space="preserve">
+    <value>tspSupplier</value>
+  </data>
+  <data name="&gt;&gt;tspSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton7.Name" xml:space="preserve">
+    <value>toolStripButton7</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
+    <value>toolStripSeparator9</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton8.Name" xml:space="preserve">
+    <value>toolStripButton8</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator20.Name" xml:space="preserve">
+    <value>toolStripSeparator20</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator21.Name" xml:space="preserve">
+    <value>toolStripSeparator21</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton10.Name" xml:space="preserve">
+    <value>toolStripButton10</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator22.Name" xml:space="preserve">
+    <value>toolStripSeparator22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator23.Name" xml:space="preserve">
+    <value>toolStripSeparator23</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton11.Name" xml:space="preserve">
+    <value>toolStripButton11</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator26.Name" xml:space="preserve">
+    <value>toolStripSeparator26</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator25.Name" xml:space="preserve">
+    <value>toolStripSeparator25</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton3.Name" xml:space="preserve">
+    <value>toolStripButton3</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator27.Name" xml:space="preserve">
+    <value>toolStripSeparator27</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator24.Name" xml:space="preserve">
+    <value>toolStripSeparator24</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton4.Name" xml:space="preserve">
+    <value>toolStripButton4</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator28.Name" xml:space="preserve">
+    <value>toolStripSeparator28</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator29.Name" xml:space="preserve">
+    <value>toolStripSeparator29</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator31.Name" xml:space="preserve">
+    <value>toolStripSeparator31</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator30.Name" xml:space="preserve">
+    <value>toolStripSeparator30</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton12.Name" xml:space="preserve">
+    <value>toolStripButton12</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
